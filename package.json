@@ -1,16 +1,32 @@
 {
   "name": "react-framerate",
-  "private": true,
+  "license": "MIT",
   "version": "0.9.0",
   "description": "Measure framerate metrics in your React app (or generic Javascript app)",
-	"contributors": [
+  "keywords": [
+    "react",
+    "measurements",
+    "performance",
+    "framerate"
+  ],
+  "contributors": [
     "Sasha Tarasov <grrrfoto@gmail.com> (https://github.com/sasha-t)",
     "Vitaly Afonin <afoninv@mail.ru> (https://github.com/afoninv)",
     "Sergey Efimov (https://github.com/efimovserj)"
   ],
-	"packageManager": "pnpm@8.1.1",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/soverenio/react-framerate.git"
+  },
+  "bugs": {
+    "url": "https://github.com/soverenio/react-framerate/issues"
+  },
+  "homepage": "https://github.com/soverenio/react-framerate#readme",
+  "packageManager": "pnpm@8.1.1",
   "type": "module",
-  "files": ["dist"],
+  "files": [
+    "dist"
+  ],
   "browser": "./dist/index.cjs",
   "module": "./dist/index.js",
   "exports": {
