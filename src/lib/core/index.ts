@@ -9,7 +9,7 @@
 //
 // Usage with callback called on each animation frame:
 //
-//  start(50, (results) => { console.log(results.lastFrame) });
+//  start(50, (results) => console.log(results.lastFrame));
 //  ... some activity ...
 //  stop();
 //
