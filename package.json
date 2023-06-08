@@ -1,0 +1,55 @@
+{
+  "name": "react-framerate",
+  "private": true,
+  "version": "0.9.0",
+  "description": "Measure framerate metrics in your React app (or generic Javascript app)",
+	"contributors": [
+    "Sasha Tarasov <grrrfoto@gmail.com> (https://github.com/sasha-t)",
+    "Vitaly Afonin <afoninv@mail.ru> (https://github.com/afoninv)",
+    "Sergey Efimov (https://github.com/efimovserj)"
+  ],
+	"packageManager": "pnpm@8.1.1",
+  "type": "module",
+  "files": ["dist"],
+  "browser": "./dist/index.cjs",
+  "module": "./dist/index.js",
+  "exports": {
+    ".": {
+      "import": "./dist/index.js",
+      "require": "./dist/index.cjs"
+    },
+    "./core": {
+      "import": "./dist/core.js",
+      "require": "./dist/core.cjs"
+    },
+    "./overlay": {
+      "import": "./dist/overlay.js",
+      "require": "./dist/overlay.cjs"
+    }
+  },
+  "scripts": {
+    "dev": "vite",
+    "build": "tsc && vite build",
+    "lint": "eslint src --ext ts,tsx --report-unused-disable-directives --max-warnings 0",
+    "prettier": "prettier --write ./src"
+  },
+  "peerDependencies": {
+    "react": "^16",
+    "react-dom": "^16"
+  },
+  "devDependencies": {
+    "@types/react": "^18.2.7",
+    "@types/react-dom": "^18.2.4",
+    "@typescript-eslint/eslint-plugin": "^5.59.8",
+    "@typescript-eslint/parser": "^5.59.8",
+    "@vitejs/plugin-react": "^4.0.0",
+    "eslint": "^8.41.0",
+    "eslint-plugin-react-hooks": "^4.6.0",
+    "eslint-plugin-react-refresh": "^0.3.5",
+    "prettier": "^2.8.8",
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0",
+    "typescript": "^5.0.4",
+    "vite": "^4.3.9"
+  }
+}
