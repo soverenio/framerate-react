@@ -1,7 +1,7 @@
 {
   "name": "framerate-react",
   "license": "MIT",
-  "version": "0.9.0",
+  "version": "0.9.1",
   "description": "Measure framerate metrics in your React app (or generic Javascript app)",
   "keywords": [
     "react",
