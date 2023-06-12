@@ -1,7 +1,7 @@
 {
   "name": "framerate-react",
   "license": "MIT",
-  "version": "0.9.2",
+  "version": "0.9.3",
   "description": "Measure framerate metrics in your React app (or generic Javascript app)",
   "keywords": [
     "react",
@@ -51,8 +51,8 @@
     "prettier": "prettier --write ./src"
   },
   "peerDependencies": {
-    "react": "^16",
-    "react-dom": "^16"
+    "react": ">=16",
+    "react-dom": ">=16"
   },
   "devDependencies": {
     "@testing-library/jest-dom": "^5.16.5",

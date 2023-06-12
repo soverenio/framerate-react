@@ -12,7 +12,7 @@ npm install framerate-react
 ### Using convenience component within your React application
 
 ```javascript
-import Overlay from 'framerate-react';
+import { Overlay } from 'framerate-react';
 
 function App() {
     return (
