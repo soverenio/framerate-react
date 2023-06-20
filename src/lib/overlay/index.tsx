@@ -8,7 +8,6 @@ const buttonStyle: CSSProperties = {
 	marginTop: 12,
 	marginBottom: 12,
 	width: 120,
-	zIndex: 1000,
 };
 
 type Props = {
@@ -46,6 +45,7 @@ function Overlay(props: Props) {
 			padding: 8,
 			backgroundColor: `rgba(224, 224, 224, ${opacity})`,
 			fontFamily: 'sans-serif',
+			zIndex: 1000,
 			...props.style,
 		};
 
