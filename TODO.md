@@ -1,0 +1,7 @@
+- export TS types ( https://raulmelo.dev/en/blog/build-javascript-library-with-multiple-entry-points-using-vite-3#generating-type-definitions )
+- npm publish
+- when jsx-runtime is external (for small bundle) - jsx-runtime.js:6 Uncaught ReferenceError: module is not defined
+- tests
+- improvement: when pressing Stop under heavy load, result does not count 'last' heavy animation frame
+- readme
+- check that 'core' imports work for non-react code
