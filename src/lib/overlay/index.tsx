@@ -8,6 +8,7 @@ const buttonStyle: CSSProperties = {
 	marginTop: 12,
 	marginBottom: 12,
 	width: 120,
+	zIndex: 1000,
 };
 
 type Props = {
