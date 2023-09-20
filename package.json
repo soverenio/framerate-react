@@ -1,7 +1,7 @@
 {
   "name": "framerate-react",
   "license": "MIT",
-  "version": "1.0.0",
+  "version": "1.1.0",
   "description": "Measure framerate metrics in your React app (or generic Javascript app)",
   "keywords": [
     "react",
@@ -72,6 +72,7 @@
     "react-dom": "^18.2.0",
     "typescript": "^5.0.4",
     "vite": "^4.3.9",
+    "vite-plugin-dts": "^3.5.3",
     "vitest": "^0.32.0"
   }
 }

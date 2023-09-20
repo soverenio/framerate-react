@@ -15,6 +15,8 @@ type Props = {
 };
 
 function DragDrop(props: Props) {
+	const { setPan } = props;
+
 	const [isMouseDown, setMouseDown] = useState<unknown | false>(false);
 
 	useEffect(
@@ -22,7 +24,7 @@ function DragDrop(props: Props) {
 			if (isMouseDown === false) return;
 
 			function onMouseMove(event: MouseEvent) {
-				props.setPan(function (pan) {
+				setPan(function (pan) {
 					return { x: pan.x + event.movementX, y: pan.y + event.movementY };
 				});
 			}
@@ -39,7 +41,7 @@ function DragDrop(props: Props) {
 				document.removeEventListener('mouseup', onMouseUp);
 			};
 		},
-		[isMouseDown, props.setPan]
+		[isMouseDown, setPan]
 	);
 
 	return (
